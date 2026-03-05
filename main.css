@@ -1,0 +1,50 @@
+body{
+    background-color: #140F33;
+    background-image: url(Assets/businessbg.svg);
+    background-size: cover;
+}
+
+img{
+    max-width: 400px;
+
+}
+
+h1{
+    color: #FCB040;
+    font-family: "quokka-glitch-right", sans-serif;
+font-weight: 700;
+font-style: normal;
+text-align: right;
+}
+
+h2{
+    color: #F1592A;
+    font-family: "quokka-glitch-left", sans-serif;
+font-weight: 700;
+font-style: normal;
+text-align: right;
+}
+
+h3{
+    color: #3D6BE7;
+    font-family: "argent-pixel-cf", sans-serif;
+font-weight: 400;
+font-style: italic;
+text-align: right;
+}
+
+h4{
+    color: #3D6BE7;
+    font-family: "argent-pixel-cf", sans-serif;
+font-weight: 400;
+font-style: normal;
+text-align: right;
+}
+
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 100px);
+
+}
