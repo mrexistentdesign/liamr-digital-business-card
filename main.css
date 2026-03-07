@@ -4,9 +4,10 @@ body{
     background-size: cover;
 }
 
-img{
-    max-width: 400px;
 
+img{
+    max-width: 300px;
+    
 }
 
 h1{
