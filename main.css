@@ -10,7 +10,9 @@ body{
 }
 
 #social{
-    width: 200px;
+    width: 400px;
+        display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 #pipe{
@@ -20,6 +22,72 @@ body{
 #cardthing{
     width: 250px;
 }
+
+.hover-image{
+    opacity: 0;
+}
+
+#linky{
+    position: relative; 
+}
+
+.default-image, .hover-image{
+    position: absolute;
+    transition: opacity 0.1s ease-in-out;
+}
+
+#linky:hover .hover-image{
+    opacity: 1;
+}
+
+#linky:hover .default-image{
+    opacity: 0;
+}
+
+.hover-image2{
+    opacity: 0;
+}
+
+#blu{
+    position: relative; 
+}
+
+.default-image2, .hover-image2{
+    position: absolute;
+    transition: opacity 0.1s ease-in-out;
+}
+
+#blu:hover .hover-image2{
+    opacity: 1;
+}
+
+#blu:hover .default-image2{
+    opacity: 0;
+}
+
+.hover-image3{
+    opacity: 0;
+}
+
+#cardthing{
+    position: relative; 
+}
+
+.default-image3, .hover-image3{
+    position: absolute;
+    transition: opacity 0.1s ease-in-out;
+}
+
+#cardthing:hover .hover-image3{
+    opacity: 1;
+}
+
+
+
+h4:hover{
+    text-decoration-line: underline;
+}
+
 h1{
     color: #FCB040;
     font-family: "quokka-glitch-right", sans-serif;
@@ -45,6 +113,8 @@ font-weight: 400;
 font-style: italic;
 text-align: right;
 font-size: 35px;
+text-decoration: underline;
+text-underline-offset: 20px;
 }
 
 h4{
@@ -56,10 +126,12 @@ text-align: right;
 font-size: 35px;
 }
 
-
-.wrapper{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 100px);
+p{
+        color: #3D6BE7;
+    font-family: "argent-pixel-cf", sans-serif;
+font-weight: 400;
+font-style: italic;
+text-align: left;
+font-size: 20px;
 
 }
