@@ -2,6 +2,11 @@ body{
     background-color: #140F33;
     background-image: url(Assets/businessbg.svg);
     background-size: cover;
+  cursor: url('Assets/bc-cursor.svg'), auto;
+}
+
+a{
+    cursor: url('Assets/bc-cursor-hover.svg'), auto;
 }
 
 #water{
@@ -21,6 +26,7 @@ body{
 
 #cardthing{
     width: 250px;
+
 }
 
 .hover-image{
